@@ -1,0 +1,162 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 234, 196);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border: solid 2px rgb(190, 121, 0)
+}
+p {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+a {
+    color: rgb(0, 102, 235);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 68, 255);
+}
+a:active {
+    color: rgb(100, 0, 0);
+}
+
+header {
+    border-bottom: solid 2px rgb(190, 121, 0);
+    background-color: wheat;
+    height: 80px;
+
+}
+aside {
+    width: 300px;
+    height: 600px;
+    border-right: solid 2px rgb(190, 121, 0);
+    background-color: rgb(255, 228, 182);
+    text-align: center;
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 25px;
+}
+footer {
+    width: 100%;
+    height: 70px;
+    border-top: solid 2px rgb(180, 115, 2);
+    background-color: rgb(221, 184, 116);
+    word-spacing: 400px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+section {
+    float: right;
+    background-color: black;
+    margin: 0 auto;
+    color: wheat;
+}
+
+#logoImage {
+    padding: 5px 0px 0px 5px;
+}
+#logoImage:hover {
+    animation: spin;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#logoName {
+    display: inline;
+    position: absolute;
+    left: 100px;
+    top: 12px;
+    font-size: 30px;
+    color: rgb(0, 162, 226);
+    font-weight: bold;
+    margin: 10px;
+}
+
+#welcomeText {
+    padding: none;
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 45%;
+    right: 45%;
+    text-align: center;
+    color: rgb(154, 197, 0);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#zegar {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    color: rgb(0, 162, 226);
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+footer a {
+    letter-spacing: 3px;
+}
+
+#mainContainer {
+    background: url(mainImage.png);
+    width: 960px;
+    height: 600px;
+    position: absolute;
+    left: 480px;
+    top: 100px;
+    border: dashed 2px rgb(180, 115, 2);
+    z-index: 1;
+}
+#textHolder {
+    position: absolute;
+    left: 10%;
+    top: 0px;
+}
+.siteIntro {
+    color: rgb(0, 123, 172);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.siteDescription {
+    color: rgb(129, 95, 0);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#historyTextBg {
+    width: 780px;
+    height: 500px;
+    background-color: rgba(255, 241, 225, 0.25);
+    position: absolute;
+    top: 50px;
+    border-radius: 18px;
+}
+
+#easterEggEntrance {
+    position: absolute;
+    left: 0px;
+    top:  0px;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+#easterEggEntrance:hover {
+    background-color: rgb(95, 95, 95);
+}
